@@ -1,0 +1,6 @@
+framework module RENTESTING {
+    umbrella header "RENTESTING.h"
+
+    export *
+    module * { export * }
+}
