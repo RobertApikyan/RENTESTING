@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <!-- This module was also published with a richer model, Gradle metadata,  -->
+  <!-- which should be used instead. Do not delete the following line which  -->
+  <!-- is to indicate to Gradle or any Gradle module metadata file consumer  -->
+  <!-- that they should prefer consuming it instead. -->
+  <!-- do_not_remove: published-with-gradle-metadata -->
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.refinery89.androidsdk</groupId>
+  <artifactId>mobile</artifactId>
+  <version>0.6.6</version>
+  <name>mobile</name>
+  <description>Android SDK for Publishers of Refinery89</description>
+  <url>https://refinery89.com</url>
+  <organization>
+    <name>Refinery 89</name>
+    <url>https://refinery89.com</url>
+  </organization>
+  <licenses>
+    <license>
+      <name>No License</name>
+      <url/>
+    </license>
+  </licenses>
+  <developers>
+    <developer>
+      <id>Refinery89 Devs</id>
+      <name>Refinery 89 Devs</name>
+      <email>development@refinery89.com</email>
+    </developer>
+  </developers>
+  <scm>
+    <connection/>
+    <developerConnection/>
+    <url/>
+  </scm>
+  <dependencies>
+    <dependency>
+      <groupId>org.jetbrains.kotlin</groupId>
+      <artifactId>kotlin-stdlib</artifactId>
+      <version>1.9.20</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-darwin</artifactId>
+      <version>2.3.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-core</artifactId>
+      <version>2.3.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-content-negotiation</artifactId>
+      <version>2.3.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-client-logging</artifactId>
+      <version>2.3.6</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>io.ktor</groupId>
+      <artifactId>ktor-serialization-kotlinx-json</artifactId>
+      <version>2.3.6</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <repositories>
+    <repository>
+      <releases>
+        <enabled>true</enabled>
+        <updatePolicy>always</updatePolicy>
+        <checksumPolicy>warn</checksumPolicy>
+      </releases>
+      <snapshots>
+        <enabled>false</enabled>
+        <updatePolicy>never</updatePolicy>
+        <checksumPolicy>fail</checksumPolicy>
+      </snapshots>
+      <name>jitpack</name>
+      <id>jitpack-repo</id>
+      <url>https://jitpack.io</url>
+      <layout>default</layout>
+    </repository>
+  </repositories>
+</project>

@@ -1,0 +1,3 @@
+language = Objective-C
+modules = CmpSdk
+linkerOpts = -framework CmpSdk

@@ -1,0 +1,10 @@
+framework module PrebidMobile {
+  umbrella header "PrebidMobile-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module PrebidMobile.__Swift {
+  exclude header "PrebidMobile-Swift.h"
+}

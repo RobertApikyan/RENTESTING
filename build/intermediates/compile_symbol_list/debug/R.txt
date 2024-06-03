@@ -1,0 +1,1 @@
+int drawable close_button 0x0

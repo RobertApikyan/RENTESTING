@@ -1,0 +1,8 @@
+framework module sharedCore {
+    umbrella header "sharedCore.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}

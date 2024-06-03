@@ -1,0 +1,16 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11488773009281448817.xml:2:13-83
+INJECTED from /Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11488773009281448817.xml:2:13-83
+	package
+		INJECTED from /Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11488773009281448817.xml
+	xmlns:android
+		ADDED from /Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11488773009281448817.xml:2:23-81
+uses-sdk
+INJECTED from /Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11488773009281448817.xml reason: use-sdk injection requested
+INJECTED from /Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11488773009281448817.xml
+INJECTED from /Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11488773009281448817.xml
+	android:targetSdkVersion
+		INJECTED from /Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11488773009281448817.xml
+	android:minSdkVersion
+		INJECTED from /Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/intermediates/tmp/ProcessLibraryManifest/debug/tempAndroidManifest11488773009281448817.xml

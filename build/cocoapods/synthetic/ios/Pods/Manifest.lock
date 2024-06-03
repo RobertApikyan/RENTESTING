@@ -1,0 +1,30 @@
+PODS:
+  - CmpSdk (2.0.1)
+  - Google-Mobile-Ads-SDK (11.5.0):
+    - GoogleUserMessagingPlatform (>= 1.1)
+  - GoogleUserMessagingPlatform (2.4.0)
+  - PrebidMobile (2.2.2):
+    - PrebidMobile/core (= 2.2.2)
+  - PrebidMobile/core (2.2.2)
+
+DEPENDENCIES:
+  - CmpSdk (= 2.0.1)
+  - Google-Mobile-Ads-SDK (= 11.5.0)
+  - PrebidMobile (= 2.2.2)
+
+SPEC REPOS:
+  trunk:
+    - CmpSdk
+    - Google-Mobile-Ads-SDK
+    - GoogleUserMessagingPlatform
+    - PrebidMobile
+
+SPEC CHECKSUMS:
+  CmpSdk: 49fc87baf2273853ee46c5eb6374e65c04cd05c8
+  Google-Mobile-Ads-SDK: 7db2098033ad3bfcd72a11e7503b49700a93029e
+  GoogleUserMessagingPlatform: f131fa7978d2ba88d7426702b057c2cc318e6595
+  PrebidMobile: 4f1dde2ef33ff8ad089c233d715630ba68c8b475
+
+PODFILE CHECKSUM: 7fc7bdf370f6ce64f50401c61b57600883ebc5cf
+
+COCOAPODS: 1.15.2

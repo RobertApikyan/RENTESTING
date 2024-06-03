@@ -1,0 +1,2 @@
+com.refinery89.sharedcore
+drawable close_button

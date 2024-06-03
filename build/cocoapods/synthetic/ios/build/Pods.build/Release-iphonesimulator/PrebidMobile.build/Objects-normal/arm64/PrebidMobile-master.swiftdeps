@@ -1,0 +1,287 @@
+version: "Apple Swift version 5.9.2 (swiftlang-5.9.2.2.56 clang-1500.1.0.2.5)"
+options: "9999507166b0a0a52a2dbdad1b73cf49966dd513b6f13ca9535a34313c54ef15"
+build_start_time: [1717182282, 206165000]
+build_end_time: [1717182299, 446355000]
+inputs:
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/AdUnit.swift"
+  : [1717180955, 600505572]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/BannerAdUnit.swift"
+  : [1717180955, 612859247]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/BannerBasedAdUnitProtocol.swift"
+  : [1717180955, 612442122]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/InstreamVideoAdUnit.swift"
+  : [1717180955, 612070872]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/InterstitialAdUnit.swift"
+  : [1717180955, 611869872]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/MultiformatAdUnit/BidInfo.swift"
+  : [1717180955, 610179704]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/MultiformatAdUnit/PrebidAdUnit.swift"
+  : [1717180955, 611184621]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/MultiformatAdUnit/PrebidRequest.swift"
+  : [1717180955, 611541121]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/ContextSubType.swift"
+  : [1717180955, 607129077]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/ContextType.swift"
+  : [1717180955, 604894283]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeAd.swift"
+  : [1717180955, 609118745]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeAdConfiguration.swift"
+  : [1717180955, 605956492]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeAdDelegate.swift"
+  : [1717180955, 602489240]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeAdEventDelegate.swift"
+  : [1717180955, 602706490]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeAdMarkup.swift"
+  : [1717180955, 603515157]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeAdMarkupAsset.swift"
+  : [1717180955, 603194074]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeAsset.swift"
+  : [1717180955, 608058869]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeData.swift"
+  : [1717180955, 609436453]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeDataAssetType.swift"
+  : [1717180955, 608736661]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeEventTracker.swift"
+  : [1717180955, 608309078]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeEventTrackerResponse.swift"
+  : [1717180955, 608493328]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeImage.swift"
+  : [1717180955, 601570615]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeImageAssetType.swift"
+  : [1717180955, 601319739]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeLink.swift"
+  : [1717180955, 605436534]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeMarkupRequestObject.swift"
+  : [1717180955, 603939950]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeRequest.swift"
+  : [1717180955, 606260659]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/NativeTitle.swift"
+  : [1717180955, 609794079]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Native/PlacementType.swift"
+  : [1717180955, 609617620]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Parameters/BannerParameters.swift"
+  : [1717180955, 613157998]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Parameters/NativeParameters.swift"
+  : [1717180955, 613341289]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Parameters/Signals.swift"
+  : [1717180955, 613842165]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Parameters/VideoParameters.swift"
+  : [1717180955, 613521539]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/RewardedVideoAdUnit.swift"
+  : [1717180955, 597767779]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/Utils.swift"
+  : [1717180955, 614384832]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/VideoAdUnit.swift"
+  : [1717180955, 612642747]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/VideoBasedAdUnitProtocol.swift"
+  : [1717180955, 612255955]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/AdUnits/VideoInterstitialAdUnit.swift"
+  : [1717180955, 614008206]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Addendum/AdViewUtils.swift"
+  : [1717180955, 617790167]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Addendum/IMAUtils.swift"
+  : [1717180955, 617968001]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Addendum/PbFindSizeError.swift"
+  : [1717180955, 617524334]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/CacheManagement/CacheExpiryDelegate.swift"
+  : [1717180955, 461905310]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/CacheManagement/CacheExpiryDelegateWrapper.swift"
+  : [1717180955, 461111435]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/CacheManagement/CacheManager.swift"
+  : [1717180955, 461736310]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/AgeUtils.swift"
+  : [1717180955, 597014528]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/ClickbrowserType.swift"
+  : [1717180955, 596373444]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/Gender.swift"
+  : [1717180955, 594669568]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/Prebid.swift"
+  : [1717180955, 595103610]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/PrebidGAMVersionChecker.swift"
+  : [1717180955, 596722486]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/PrebidInitializationStatus.swift"
+  : [1717180955, 595319777]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/PrebidSDKInitializer.swift"
+  : [1717180955, 595859486]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/PrebidServerStatusRequester.swift"
+  : [1717180955, 595682444]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/Targeting.swift"
+  : [1717180955, 597342195]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ConfigurationAndTargeting/UserConsentDataManager.swift"
+  : [1717180955, 596190152]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Constants.swift"
+  : [1717180955, 460702101]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Dispatcher.swift"
+  : [1717180955, 462323269]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ExternalUserId.swift"
+  : [1717180955, 617282709]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Global.swift"
+  : [1717180955, 462162144]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Host.swift"
+  : [1717180955, 619153793]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ImageHelper.swift"
+  : [1717180955, 616715083]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/JSONConvertible.swift"
+  : [1717180955, 462848061]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/JsonDecodable.swift"
+  : [1717180955, 614572832]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Logging/Log.swift"
+  : [1717180955, 618500709]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Logging/LogLevel.swift"
+  : [1717180955, 618757376]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/AdFormat.swift"
+  : [1717180955, 529625023]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/AdPosition.swift"
+  : [1717180955, 473054318]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/AdTypes/AdView/AdConfiguration.swift"
+  : [1717180955, 547900703]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/AdTypes/AdView/AdViewButtonDecorator.swift"
+  : [1717180955, 546554827]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/AdTypes/AdView/HiddenWebViewManager.swift"
+  : [1717180955, 549201537]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/AdTypes/AdView/Position.swift"
+  : [1717180955, 572790428]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/AdTypes/AdView/VideoControlsConfiguration.swift"
+  : [1717180955, 552125205]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Assets/PrebidImagesRepository.swift"
+  : [1717180955, 592979692]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/AutoRefreshCountConfig.swift"
+  : [1717180955, 594217943]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/ExtensionsAndWrappers/String+Extensions.swift"
+  : [1717180955, 466588022]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/ImpressionTask.swift"
+  : [1717180955, 529313565]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/ImpressionTasksExecutor.swift"
+  : [1717180955, 532180400]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Networking/PrebidServerConnection.swift"
+  : [1717180955, 483053992]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Networking/PrebidServerConnectionProtocol.swift"
+  : [1717180955, 482552658]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Networking/PrebidServerResponse.swift"
+  : [1717180955, 482771450]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Networking/URLBuilding/PathBuilder.swift"
+  : [1717180955, 474294944]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/AdLoading/AdLoadFlowControllerDelegate.swift"
+  : [1717180955, 517069765]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/AdLoading/BannerAdLoaderDelegate.swift"
+  : [1717180955, 515376305]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/BannerEventHandler.swift"
+  : [1717180955, 513658388]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/BannerEventInteractionDelegate.swift"
+  : [1717180955, 511995761]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/BannerEventLoadingDelegate.swift"
+  : [1717180955, 510433094]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/BannerView.swift"
+  : [1717180955, 510893094]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/BannerViewDelegate.swift"
+  : [1717180955, 511824136]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/BaseInterstitialAdUnit.swift"
+  : [1717180955, 512730179]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/BaseInterstitialAdUnitProtocol.swift"
+  : [1717180955, 512165220]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/InterstitialAdUnitDelegate.swift"
+  : [1717180955, 512911512]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/InterstitialEventHandlerProtocol.swift"
+  : [1717180955, 514517013]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/InterstitialEventInteractionDelegate.swift"
+  : [1717180955, 511101511]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/InterstitialEventLoadingDelegate.swift"
+  : [1717180955, 513079137]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/InterstitialRenderingAdUnit.swift"
+  : [1717180955, 514120471]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/RewardedAdUnit.swift"
+  : [1717180955, 512370803]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/RewardedAdUnitDelegate.swift"
+  : [1717180955, 511339011]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/RewardedEventHandlerProtocol.swift"
+  : [1717180955, 514336596]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/RewardedEventInteractionDelegate.swift"
+  : [1717180955, 511550344]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/GAM/RewardedEventLoadingDelegate.swift"
+  : [1717180955, 513293012]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/MediationBannerAdUnit.swift"
+  : [1717180955, 509316843]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/MediationBaseInterstitialAdUnit.swift"
+  : [1717180955, 509812843]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/MediationBidInfoWrapper.swift"
+  : [1717180955, 508417009]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/MediationConstants.swift"
+  : [1717180955, 509479051]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/MediationInterstitialAdUnit.swift"
+  : [1717180955, 508756842]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/MediationNativeAdUnit.swift"
+  : [1717180955, 508232009]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/MediationNativeUtils.swift"
+  : [1717180955, 507950842]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/MediationRewardedAdUnit.swift"
+  : [1717180955, 510039968]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/MediationUtils.swift"
+  : [1717180955, 508583384]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/MediationAPI/PrebidMediationDelegate.swift"
+  : [1717180955, 508938884]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/PBMStandaloneSDK/DemandResponseInfo.swift"
+  : [1717180955, 518856974]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/PBMStandaloneSDK/EventHandlers/BannerEventHandlerStandalone.swift"
+  : [1717180955, 518665974]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/PBMStandaloneSDK/EventHandlers/InterstitialEventHandlerStandalone.swift"
+  : [1717180955, 518185182]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/Integrations/PBMStandaloneSDK/EventHandlers/RewardedEventHandlerStandalone.swift"
+  : [1717180955, 518423349]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/PBMCacheRenderers/DisplayViewInteractionDelegate.swift"
+  : [1717180955, 484924784]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/PBMCacheRenderers/DisplayViewLoadingDelegate.swift"
+  : [1717180955, 484744868]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/PBMCacheRenderers/InterstitialController.swift"
+  : [1717180955, 484577868]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/PBMCacheRenderers/InterstitialControllerInteractionDelegate.swift"
+  : [1717180955, 484392826]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/PBMCacheRenderers/InterstitialControllerLoadingDelegate.swift"
+  : [1717180955, 484037659]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/PBMCore/AdUnitConfig.swift"
+  : [1717180955, 490800539]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/PBMCore/Bid.swift"
+  : [1717180955, 495467292]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/PBMCore/BidResponse.swift"
+  : [1717180955, 505000215]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Prebid/PBMCore/PBMError_Extension.swift"
+  : [1717180955, 491469289]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/PrebidServerEventTracker.swift"
+  : [1717180955, 593370359]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/ServerEvent.swift"
+  : [1717180955, 519197558]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/ServerSideConfiguration/PrebidJSLibrary.swift"
+  : [1717180955, 594057609]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/ServerSideConfiguration/PrebidJSLibraryManager.swift"
+  : [1717180955, 593885734]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/SkadnEventTracker.swift"
+  : [1717180955, 519387391]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/SkadnParametersManager.swift"
+  : [1717180955, 471603525]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Utilities/DateFormatService.swift"
+  : [1717180955, 529161315]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Utilities/EventTracker/EventManager.swift"
+  : [1717180955, 526822688]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Utilities/NetworkType.swift"
+  : [1717180955, 521052393]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Utilities/Reachability.swift"
+  : [1717180955, 523975311]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/PrebidMobileRendering/Utilities/UserAgentService.swift"
+  : [1717180955, 524294020]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/ResultCode.swift"
+  : [1717180955, 619511168]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/StorageUtils.swift"
+  : [1717180955, 462659978]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/TrackerInfo.swift"
+  : [1717180955, 616553416]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/TrackerManager.swift"
+  : [1717180955, 462506311]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/UIViewExtension.swift"
+  : [1717180955, 616239708]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Utils/CollectionExtension.swift"
+  : [1717180955, 615048749]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Utils/NSString+Extensions.swift"
+  : [1717180955, 615573541]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Utils/UIView+Extensions.swift"
+  : [1717180955, 615226916]
+  ? "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/Pods/PrebidMobile/PrebidMobile/Utils/UserDefaults+Extensions.swift"
+  : [1717180955, 616073333]

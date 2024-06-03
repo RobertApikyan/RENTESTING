@@ -1,0 +1,6 @@
+framework module sharedCore {
+  umbrella header "placeholder.h"
+
+  export *
+  module * { export * }
+}

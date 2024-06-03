@@ -1,0 +1,23 @@
+{
+  'version': 0,
+  'use-external-names': 'false',
+  'case-sensitive': 'false',
+  'roots': [{
+    'type': 'directory',
+    'name': "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/build/Release-iphoneos/PrebidMobile/PrebidMobile.framework/Modules"
+    'contents': [{
+      'type': 'file',
+      'name': "module.modulemap",
+      'external-contents': "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/build/Pods.build/Release-iphoneos/PrebidMobile.build/unextended-module.modulemap",
+    }]
+    },
+    {
+    'type': 'directory',
+    'name': "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/build/Release-iphoneos/PrebidMobile/PrebidMobile.framework/Headers"
+    'contents': [{
+      'type': 'file',
+      'name': "PrebidMobile-Swift.h",
+      'external-contents': "/Users/robertapikyan/Desktop/projects/refinery_89_android/r89sdk-android/sharedCore/build/cocoapods/synthetic/ios/build/Pods.build/Release-iphoneos/PrebidMobile.build/unextended-interface-header.h",
+    }]
+    }]
+}
