@@ -425,42 +425,38 @@ task<Exec>(PUSH_TO_REPO_TASK_NAME) {
 //	 Initialize Git repository
 	println("Initializing Git repository...")
 	commandLine("git", "init")
-
-	doLast {
-
-
-		// Add remote repository
-		println("Adding remote repository...")
-		exec {
-			commandLine("git", "remote", "add", "sdk", remoteUrl)
-			isIgnoreExitValue = true
-		}
-
-		// Add all files
-		println("Adding all files...")
-		exec {
-			commandLine("git", "add", ".")
-			isIgnoreExitValue = true
-		}
-
-		// Commit changes
-		println("Committing changes...")
-		exec {
-			commandLine("git", "commit", "-m", "\"$PUBLISH_VERSION\"")
-			isIgnoreExitValue = true
-		}
-		// Create tag
-		println("Creating tag...")
-		exec {
-			commandLine("git", "tag", PUBLISH_VERSION)
-			isIgnoreExitValue = true
-		}
-
-		// Push tag to remote repository
-		println("Pushing tag to remote repository...")
-		exec {
-			commandLine("git", "push", "--force", "sdk", PUBLISH_VERSION)
-			isIgnoreExitValue = true
-		}
+	
+	// Add remote repository
+	println("Adding remote repository...")
+	exec {
+		commandLine("git", "remote", "add", "sdk", remoteUrl)
+		isIgnoreExitValue = true
+	}
+	
+	// Add all files
+	println("Adding all files...")
+	exec {
+		commandLine("git", "add", ".")
+		isIgnoreExitValue = true
+	}
+	
+	// Commit changes
+	println("Committing changes...")
+	exec {
+		commandLine("git", "commit", "-m", "\"$PUBLISH_VERSION\"")
+		isIgnoreExitValue = true
+	}
+	// Create tag
+	println("Creating tag...")
+	exec {
+		commandLine("git", "tag", PUBLISH_VERSION)
+		isIgnoreExitValue = true
+	}
+	
+	// Push tag to remote repository
+	println("Pushing tag to remote repository...")
+	exec {
+		commandLine("git", "push", "--force", "sdk", PUBLISH_VERSION)
+		isIgnoreExitValue = true
 	}
 }
