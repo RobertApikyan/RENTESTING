@@ -418,6 +418,7 @@ val PUSH_TO_REPO_TASK_NAME = "pushToRepo"
 task<Exec>(PUSH_TO_REPO_TASK_NAME) {
 	val xcFrameworkDirectory = "${project.projectDir}/build/XCFrameworks/release/"
 	val remoteUrl = "https://github.com/RobertApikyan/RENTESTING.git"
+	val remoteName = "sdk"
 	workingDir = File(xcFrameworkDirectory)
 	
 //	commandLine("sh","${project.projectDir}/publish.sh")
@@ -426,13 +427,20 @@ task<Exec>(PUSH_TO_REPO_TASK_NAME) {
 	println("Initializing Git repository...")
 	commandLine("git", "init")
 	
-	// Add remote repository
 	println("Adding remote repository...")
-	exec {
-		commandLine("git", "remote", "add", "sdk", remoteUrl)
+	val remotesResult = exec {
+		commandLine("git", "remote", "-v")
 		isIgnoreExitValue = true
 	}
-	
+	val hasRemote = remotesResult.toString().contains(remoteName)
+	// Add remote repository
+	if(!hasRemote){
+		println("Adding remote repository...")
+		exec {
+			commandLine("git", "remote", "add", remoteName, remoteUrl)
+			isIgnoreExitValue = true
+		}
+	}
 	// Add all files
 	println("Adding all files...")
 	exec {
