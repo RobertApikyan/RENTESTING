@@ -429,14 +429,16 @@ task<Exec>(PUSH_TO_REPO_TASK_NAME) {
 	commandLine("git", "init")
 	
 	println("Adding remote repository...")
-	val output = ByteArrayOutputStream()
-	exec {
-		commandLine("git", "remote", "-v")
-		isIgnoreExitValue = true
-		standardOutput = output
+	
+	val gitRemoteOutput = ByteArrayOutputStream()
+	gitRemoteOutput.use { output ->
+		exec {
+			commandLine("git", "remote", "-v")
+			isIgnoreExitValue = true
+			standardOutput = output
+		}
 	}
-	val hasRemote = output.toString().contains(remoteName)
-	output.close()
+	val hasRemote = gitRemoteOutput.toString().contains(remoteName)
 	// Add remote repository
 	if(!hasRemote){
 		println("Adding remote repository...")
