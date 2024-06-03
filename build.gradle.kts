@@ -422,23 +422,20 @@ task<Exec>(PUSH_TO_REPO_TASK_NAME) {
 	val remoteName = "sdk"
 	workingDir = File(xcFrameworkDirectory)
 	
-//	commandLine("sh","${project.projectDir}/publish.sh")
-	
 //	 Initialize Git repository
 	println("Initializing Git repository...")
 	commandLine("git", "init")
 	
-	println("Adding remote repository...")
-	
+	println("Checking for existing remote...")
 	val gitRemoteOutput = ByteArrayOutputStream()
-	gitRemoteOutput.use { output ->
-		exec {
-			commandLine("git", "remote", "-v")
-			isIgnoreExitValue = true
-			standardOutput = output
-		}
+	exec {
+		commandLine("git", "remote", "-v")
+		isIgnoreExitValue = true
+		standardOutput = gitRemoteOutput
 	}
 	val hasRemote = gitRemoteOutput.toString().contains(remoteName)
+	gitRemoteOutput.close()
+	
 	// Add remote repository
 	if(!hasRemote){
 		println("Adding remote repository...")
