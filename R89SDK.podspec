@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'R89SDK'
-    spec.version                  = '0.7.5'
+    spec.version                  = '0.7.7'
     spec.homepage                 = 'Link to a Kotlin/Native module homepage'
     spec.authors                  = { 'Your Name' => 'your.email@example.com' }
     spec.license                  = { :type => 'MIT', :file => 'LICENSE' }
