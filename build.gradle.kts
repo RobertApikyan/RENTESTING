@@ -433,6 +433,7 @@ task<Exec>(PUSH_TO_REPO_TASK_NAME) {
 		isIgnoreExitValue = true
 	}
 	val hasRemote = remotesResult.toString().contains(remoteName)
+	print("******* ${ remotesResult.toString()}")
 	// Add remote repository
 	if(!hasRemote){
 		println("Adding remote repository...")
