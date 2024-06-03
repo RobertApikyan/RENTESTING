@@ -3,6 +3,7 @@
 import com.github.gmazzo.buildconfig.BuildConfigExtension
 import org.jetbrains.kotlin.gradle.plugin.KotlinSourceSet
 import org.jetbrains.kotlin.gradle.plugin.mpp.apple.XCFramework
+import java.io.ByteArrayOutputStream
 
 typealias SourceSetContext = Action<NamedDomainObjectContainer<KotlinSourceSet>>
 
@@ -428,12 +429,14 @@ task<Exec>(PUSH_TO_REPO_TASK_NAME) {
 	commandLine("git", "init")
 	
 	println("Adding remote repository...")
-	val remotesResult = exec {
+	val output = ByteArrayOutputStream()
+	exec {
 		commandLine("git", "remote", "-v")
 		isIgnoreExitValue = true
+		standardOutput = output
 	}
-	val hasRemote = remotesResult.toString().contains(remoteName)
-	print("******* ${ remotesResult.toString()}")
+	val hasRemote = output.toString().contains(remoteName)
+	print("******* ${ output.toString()}")
 	// Add remote repository
 	if(!hasRemote){
 		println("Adding remote repository...")
