@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'R89SDK'
-    spec.version                  = '1.2.0'
+    spec.version                  = '1.2.1'
     spec.homepage                 = 'Link to a Kotlin/Native module homepage'
     spec.source                   = { :http=> ''}
     spec.authors                  = { 'Refinery89' => 'Refinery89 SDK authors' }
