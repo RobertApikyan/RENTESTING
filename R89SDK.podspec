@@ -1,14 +1,11 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'R89SDK'
-    spec.homepage                 = ''
-    spec.authors                  = ''
-    spec.summary                  = ''
     spec.ios.deployment_target = '12.0'
     spec.dependency 'CmpSdk', '2.0.1'
     spec.dependency 'Google-Mobile-Ads-SDK', '11.5.0'
     spec.dependency 'PrebidMobile', '2.2.2'
-	spec.version = '1.3.0'
-	spec.source = { :git => 'https://github.com/RobertApikyan/RENTESTING.git', :tag => '1.3.0' }
+	spec.version = '1.3.1'
+	spec.source = { :git => 'https://github.com/RobertApikyan/RENTESTING.git', :tag => '1.3.1' }
 	spec.license          = { :type => 'No License', :file => 'LICENSE' }
 	spec.authors          = { 'Abraham Armas' => 'abrahamarmascordero1997@hotmail.com','Dmitriy Tskitishvili' => 'dmitriy@refinery89.com','Robert Apikyan' => 'apikyan41@gmail.com' }
 	spec.summary          = 'Monetize App SDK.'
