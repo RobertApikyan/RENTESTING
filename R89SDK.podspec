@@ -1,8 +1,5 @@
 Pod::Spec.new do |spec|
     spec.name                     = 'R89SDK'
-    spec.homepage                 = ''
-    spec.authors                  = ''
-    spec.summary                  = ''
     spec.ios.deployment_target = '12.0'
     spec.dependency 'CmpSdk', '2.0.1'
     spec.dependency 'Google-Mobile-Ads-SDK', '11.5.0'
