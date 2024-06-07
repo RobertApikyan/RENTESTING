@@ -1,8 +1,0 @@
-framework module R89SDK {
-    umbrella header "R89SDK.h"
-
-    export *
-    module * { export * }
-
-    use Foundation
-}
